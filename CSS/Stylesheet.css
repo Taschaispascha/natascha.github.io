@@ -3,17 +3,17 @@ body {
   Color: #000;
 }
 h1 {
-  text-align: center
+  text-align: center;
 }
 
 h2 {
   color: cyan;
   text-decoration: overline;
-  text-align: center
+  text-align: center;
 }
 
 p {
-  text-align: center
+  text-align: center;
 }
 
 .content {

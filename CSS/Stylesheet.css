@@ -2,10 +2,14 @@ body {
   Background: #ccc;
   Color: #000;
 }
+h1 {
+  text-align: center
+}
 
 h2 {
-  color: purple;
+  color: cyan;
   text-decoration: overline;
+  text-align: center
 }
 
 .content {

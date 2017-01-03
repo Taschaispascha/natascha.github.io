@@ -1,5 +1,9 @@
 body {
-Background: #ccc;
+  Background: #ccc;
+  Color: #000;
+}
 
-
+h1 {
+  color: purple;
+  text-decoration: overline;
 }

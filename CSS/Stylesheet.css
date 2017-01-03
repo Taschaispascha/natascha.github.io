@@ -3,7 +3,16 @@ body {
   Color: #000;
 }
 
-h1 {
+h2 {
   color: purple;
   text-decoration: overline;
+}
+
+.content {
+display: inline-block;
+width: 100%;
+padding: 20px;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+line-height: 1,5;
+
 }

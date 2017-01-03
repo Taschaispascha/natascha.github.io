@@ -3,17 +3,17 @@ body {
   Color: #000;
 }
 h1 {
-  text-align: center;
+  text-align: right;
 }
 
 h2 {
-  color: cyan;
+  color: #CD6155;
   text-decoration: overline;
-  text-align: center;
+  text-align: right;
 }
 
 p {
-  text-align: center;
+  text-align: right;
 }
 
 .content {
@@ -32,6 +32,6 @@ p {
 
 .content-right {
   float: right;
-  width: 50%;
+  width: 30%;
   padding-left: 20px;
 }

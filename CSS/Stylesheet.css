@@ -4,17 +4,19 @@ body {
 }
 h1 {
   text-align: right;
-  font-size: 48px;
+  font-size: 78px;
+  color: white;
 }
 
 h2 {
-  color: #CD6155;
+  color: black;
   text-decoration: overline;
   text-align: right;
 }
 
 p {
   text-align: right;
+  font-size: 12px;
 }
 
 .content {

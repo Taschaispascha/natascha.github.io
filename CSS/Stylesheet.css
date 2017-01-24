@@ -4,37 +4,39 @@ body {
 }
 h1 {
   text-align: right;
-  font-size: 78px;
+  font-size: 228px;
   color: white;
+  font-family: Arial;
+  text-decoration: underline;
 }
-
 h2 {
-  color: black;
-  text-decoration: overline;
   text-align: right;
+  font-size: 100px;
+  color: white;
+  font-family: Arial;
 }
 
-p {
-  text-align: right;
-  font-size: 12px;
+ .überschrift {
+  height: 650px;
 }
 
-.content {
-  display: inline-block;
-  width: 100%;
-  padding: 20px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+.row-1 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start
+  height: 650px;
 }
 
-.content-left {
-  float: left;
-  width: 50%;
-  padding-right: 20px;
+.row-2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 650px;
 }
 
-.content-right {
-  float: right;
-  width: 40%;
-  padding-left: 20px;
+.row-3 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 1150px;
 }

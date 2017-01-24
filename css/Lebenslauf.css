@@ -1,0 +1,41 @@
+
+body {
+  Background: #ccc;
+  Color: #000;
+}
+h1 {
+  text-align: right;
+  font-size: 78px;
+  color: white;
+}
+
+h2 {
+  color: black;
+  text-decoration: overline;
+  text-align: right;
+}
+
+p {
+  text-align: right;
+  font-size: 12px;
+}
+
+.content {
+  display: inline-block;
+  width: 100%;
+  padding: 20px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.content-left {
+  float: left;
+  width: 50%;
+  padding-right: 20px;
+}
+
+.content-right {
+  float: right;
+  width: 40%;
+  padding-left: 20px;
+}

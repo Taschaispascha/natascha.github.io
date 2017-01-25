@@ -3,22 +3,33 @@ body {
   Color: #000;
 }
 h1 {
+  display: flex;
   text-align: right;
   font-size: 228px;
   color: white;
   font-family: Arial;
-  text-decoration: underline;
+  justify-content: center;
+  margin-top: 80;
 }
 h2 {
-  text-align: right;
-  font-size: 100px;
+
+  font-size: 70px;
   color: white;
   font-family: Arial;
+  font-style: oblique;
 }
 
- .überschrift {
-  height: 650px;
+a {
+  font-size: 70px;
+  color: white;
+  font-family: Arial;
+  text-decoration:none;
+  font-weight: bold;
+  font-style: oblique;
+
 }
+
+
 
 .row-1 {
   display: flex;
@@ -38,5 +49,12 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  height: 1150px;
+  height: 650px;
+}
+
+.row-4 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 650px;
 }

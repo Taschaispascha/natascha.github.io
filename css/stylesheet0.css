@@ -7,19 +7,87 @@ h2 {
   font-size: 100px;
   text-align: center;
 	font-family: "Gill Sans", "Gill Sans MT","Trebuchet MS", sans-serif;
+
+}
+
+h3 {
+  font-size: 35px;
+  font-family: sans-serif;
+  color: white;
+  font-style:oblique;
+  font-weight: lighter;
 }
 
 a {
-  font-size: 90px;
-  color: black;
-  font-family: "Canter Light";
-  text-decoration:none;
-  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  font-size: 35px;
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-style: oblique;
 }
 
-.bild {
-  text-align: center;
-  margin-bottom: 2em
+
+.container1 {
+  display: flex;
+  margin-bottom: 2em;
+  width: 100%;
+  justify-content: center;
+}
+.bild1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 12px;
+
+}
+.schrift1 {
+  margin-left: -275px;
+}
+
+.container2 {
+  display: flex;
+  margin-bottom: 2em;
+  width: 100%;
+  justify-content: center;
+}
+.bild2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -8px;
+}
+.schrift2 {
+  margin-left: -275px;
+}
 
 
+.container3 {
+  display: flex;
+  margin-bottom: 2em;
+  width: 100%;
+  justify-content: center;
+}
+.bild3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.schrift3 {
+  margin-left: -275px;
+}
+
+.container4 {
+  display: flex;
+  margin-bottom: 2em;
+  width: 100%;
+  justify-content: center;
+}
+.bild4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.schrift4 {
+  margin-left: -275px;
 }

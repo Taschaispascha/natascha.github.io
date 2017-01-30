@@ -1,0 +1,25 @@
+body {
+  Background: white;
+  Color: #000;
+}
+
+h2 {
+  font-size: 100px;
+  text-align: center;
+	font-family: "Gill Sans", "Gill Sans MT","Trebuchet MS", sans-serif;
+}
+
+a {
+  font-size: 90px;
+  color: black;
+  font-family: "Canter Light";
+  text-decoration:none;
+  font-weight: bold;
+}
+
+.bild {
+  text-align: center;
+  margin-bottom: 2em
+
+
+}

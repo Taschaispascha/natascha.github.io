@@ -5,27 +5,27 @@ body {
 h1 {
   display: flex;
   text-align: right;
-  font-size: 228px;
+  font-size: 328px;
   color: white;
-  font-family: Arial;
+  font-family: "Canter Outline";
   justify-content: center;
-  margin-top: 80;
+  margin-top: 100;
 }
 h2 {
 
-  font-size: 70px;
+  font-size: 90px;
   color: white;
-  font-family: Arial;
-  font-style: oblique;
+  font-family: "Canter Light";
+
 }
 
 a {
-  font-size: 70px;
+  font-size: 90px;
   color: white;
-  font-family: Arial;
+  font-family: "Canter Light";
   text-decoration:none;
   font-weight: bold;
-  font-style: oblique;
+
 
 }
 

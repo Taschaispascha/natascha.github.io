@@ -6,25 +6,21 @@ body {
 h2 {
   font-size: 100px;
   text-align: center;
-	font-family: "Gill Sans", "Gill Sans MT","Trebuchet MS", sans-serif;
-
+	font-family: "Roboto";
+  margin-bottom: 1em;
+  margin-top: 1em;
 }
 
-h3 {
-  font-size: 25px;
-  font-family: sans-serif;
-  color: white;
-  font-style:oblique;
-  font-weight: lighter;
-}
 
 a {
   color: white;
   text-decoration: none;
   font-size: 25px;
-  font-family: sans-serif;
+  font-family: "Roboto"cursive;
   font-weight: lighter;
   font-style: oblique;
+
+
 }
 
 footer {
@@ -36,67 +32,31 @@ text-align:left;
 
 
 
-.container1 {
-  display: flex;
-  margin-bottom: 2em;
+.container {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.container__image {
+  width: 500px;
+  height: 500px;
+  border-radius: 100%;
+}
+
+.container__link {
+  position: absolute;
   width: 100%;
-  justify-content: center;
-}
-.bild1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 12px;
-
-}
-.schrift1 {
-  margin-left: -275px;
-}
-
-.container2 {
-  display: flex;
-  margin-bottom: 2em;
-  width: 100%;
-  justify-content: center;
-}
-.bild2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: -8px;
-}
-.schrift2 {
-  margin-left: -275px;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 
-.container3 {
-  display: flex;
-  margin-bottom: 2em;
-  width: 100%;
-  justify-content: center;
-}
-.bild3 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.schrift3 {
-  margin-left: -275px;
-}
-
-.container4 {
-  display: flex;
-  margin-bottom: 2em;
-  width: 100%;
-  justify-content: center;
-}
-.bild4 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  float:left;
-}
-.schrift4 {
-  margin-left: -275px;
+.container__link:hover {
+  color:yellow;
 }

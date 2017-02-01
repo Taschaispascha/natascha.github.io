@@ -7,12 +7,14 @@ body {
   background-image: url("../images/grau.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-
+  text-align: right;
 }
+
 h1 {
   text-align: right;
-  font-size: 98px;
+  font-size: 100px;
   color: yellow;
+  font-family: "Roboto";
 }
 
 h2 {
@@ -20,48 +22,35 @@ h2 {
   text-decoration: overline;
   text-align: right;
   padding-top: 30px;
+  font-family: "Roboto";
 }
 
 p {
   text-align: right;
-  font-size: 12px;
+  font-size: 16px;
   color: white;
   padding-top: 3px;
+  font-family: "Roboto";
 }
 
 a {
-  text-align: center;
-  font-size: 20px;
+  text-align: right;
+  font-size: 18px;
   color: yellow;
   text-decoration: none;
-  font-family: "Roboto";
+  font-family: "Roboto" cursive;
   }
 
-.content {
-  display: inline-block;
-  width: 100%;
-  padding: 20px;
-  font-family: "Roboto";
-  line-height: 1.5;
-}
 
-.content-left {
-  float: left;
-  width: 50%;
-  padding-right: 20px;
-  margin-top: 20px;
-}
 
-  .kreis {
-    border-radius: 50%;
-    padding-left: 20px;
-    float: right;
-    margin-right: 90px;
-    margin-top: 420px;
+  .content-left {
+    float: left;
+    width: 58%;
+    padding-right: 20px;
+    margin-top: 20px;
   }
 
-.link {
-  float: right;
-  margin-right: 700px;
-  margin-top: 399px;
-}
+
+  .link:hover {
+    color:white;
+  }

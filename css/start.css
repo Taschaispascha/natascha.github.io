@@ -48,6 +48,24 @@ text-align:left;
   border-radius: 100%;
 }
 
+.container__image {
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.container__image:hover {
+  -webkit-transform: rotate(-10deg);
+ -moz-transform: rotate(-10deg);
+   -o-transform: rotate(-10deg);
+  -ms-transform: rotate(-10deg);
+      transform: rotate(-10deg);
+}
+
+
+
 .container__link {
   position: absolute;
   width: 100%;

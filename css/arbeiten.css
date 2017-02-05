@@ -1,0 +1,41 @@
+body {
+  background-color: white;
+  text-align: center;
+}
+
+h1 {
+  color: yellow;
+  font-size: 100px;
+  font-family: "Roboto";
+  text-align: center;
+  margin-top: 1em;
+}
+
+.container {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.container__image {
+  width: 600px;
+  height: 600px;
+  border-radius: 100%;
+  margin-top: 2em;
+}
+
+a {
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+  font-family: "Roboto"cursive;
+  margin-top: 80px;
+}
+
+.link:hover {
+    color:yellow;
+}
